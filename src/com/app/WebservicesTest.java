@@ -20,5 +20,10 @@ public class WebservicesTest {
 	public String msg(){
 		return "hi";
 	}
+	@Path("/msgg")
+	public String show(){
+		return "Hello123";
+	}
+	
 
 }
